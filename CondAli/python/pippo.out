@@ -1,0 +1,7 @@
+----- Begin Fatal Exception 04-Feb-2022 15:35:15 CET-----------------------
+An exception of category 'StdException' occurred while
+   [0] Processing the python configuration file named readAli.py
+Exception Message:
+A std::exception was thrown.
+File "readAli.py" could not be opened!
+----- End Fatal Exception -------------------------------------------------

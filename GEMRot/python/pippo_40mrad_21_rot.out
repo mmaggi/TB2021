@@ -1,0 +1,16 @@
+%MSG-i ThreadStreamSetup:  (NoModuleName) 07-Feb-2022 17:40:10 CET pre-events
+setting # threads 12
+setting # streams 12
+%MSG
+07-Feb-2022 17:40:17 CET  Initiating request to open file file:../../../gemsw/EventFilter/test/output_edm_track21.root
+----- Begin Fatal Exception 07-Feb-2022 17:40:17 CET-----------------------
+An exception of category 'FileOpenError' occurred while
+   [0] Constructing the EventProcessor
+   [1] Constructing input source of type PoolSource
+   [2] Calling RootInputFileSequence::initTheFile()
+   Additional Info:
+      [a] Input file file:../../../gemsw/EventFilter/test/output_edm_track21.root could not be opened.
+      [b] Fatal Root Error: @SUB=TStorageFactoryFile::Init
+file ../../../gemsw/EventFilter/test/output_edm_track21.root probably not closed, trying to recover
+
+----- End Fatal Exception -------------------------------------------------

@@ -1,0 +1,14 @@
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Creating project symlinks
+>> Entering Package TB2021/ExtraPGE21
+gmake[1]: Entering directory '/lustre/home/mmaggi/CMS/GEM/TB2021/TEST/CMSSW_12_2_0_pre1'
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Creating project symlinks
+>> Done generating edm plugin poisoned information
+>> Plugins of all types refreshed.
+>> Done python_symlink
+>> Compiling python3 modules python
+>> All python modules compiled
+gmake[1]: Leaving directory '/lustre/home/mmaggi/CMS/GEM/TB2021/TEST/CMSSW_12_2_0_pre1'

@@ -1,0 +1,247 @@
+%MSG-i ThreadStreamSetup:  (NoModuleName) 04-Feb-2022 11:07:51 CET pre-events
+setting # threads 20
+setting # streams 20
+%MSG
+04-Feb-2022 11:07:58 CET  Initiating request to open file file:../../../gemsw/EventFilter/test/output_edm_track20.root
+04-Feb-2022 11:07:58 CET  Successfully opened file file:../../../gemsw/EventFilter/test/output_edm_track20.root
+Rotation Analysis 
+Rotation   0 is -2 mrad
+Rotation   1 is -1.8 mrad
+Rotation   2 is -1.6 mrad
+Rotation   3 is -1.4 mrad
+Rotation   4 is -1.2 mrad
+Rotation   5 is -1 mrad
+Rotation   6 is -0.8 mrad
+Rotation   7 is -0.6 mrad
+Rotation   8 is -0.4 mrad
+Rotation   9 is -0.2 mrad
+Rotation  10 is -9.49949e-08 mrad
+Rotation  11 is 0.2 mrad
+Rotation  12 is 0.4 mrad
+Rotation  13 is 0.6 mrad
+Rotation  14 is 0.8 mrad
+Rotation  15 is 1 mrad
+Rotation  16 is 1.2 mrad
+Rotation  17 is 1.4 mrad
+Rotation  18 is 1.6 mrad
+Rotation  19 is 1.8 mrad
+Rotation  20 is 2 mrad
+Begin processing the 1st record. Run 1, Event 4, LumiSection 1 on stream 1 at 04-Feb-2022 11:08:01.694 CET
+Begin processing the 10001st record. Run 1, Event 27173, LumiSection 1 on stream 1 at 04-Feb-2022 11:08:02.336 CET
+Begin processing the 20001st record. Run 1, Event 54306, LumiSection 1 on stream 5 at 04-Feb-2022 11:08:02.921 CET
+Begin processing the 30001st record. Run 1, Event 81360, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:03.545 CET
+Begin processing the 40001st record. Run 1, Event 108677, LumiSection 1 on stream 0 at 04-Feb-2022 11:08:04.114 CET
+Begin processing the 50001st record. Run 1, Event 135930, LumiSection 1 on stream 15 at 04-Feb-2022 11:08:04.745 CET
+Begin processing the 60001st record. Run 1, Event 163156, LumiSection 1 on stream 12 at 04-Feb-2022 11:08:05.373 CET
+Begin processing the 70001st record. Run 1, Event 190158, LumiSection 1 on stream 3 at 04-Feb-2022 11:08:05.977 CET
+Begin processing the 80001st record. Run 1, Event 217137, LumiSection 1 on stream 7 at 04-Feb-2022 11:08:06.555 CET
+Begin processing the 90001st record. Run 1, Event 244076, LumiSection 1 on stream 18 at 04-Feb-2022 11:08:07.173 CET
+Begin processing the 100001st record. Run 1, Event 271036, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:07.776 CET
+Begin processing the 110001st record. Run 1, Event 298078, LumiSection 1 on stream 13 at 04-Feb-2022 11:08:08.363 CET
+Begin processing the 120001st record. Run 1, Event 325137, LumiSection 1 on stream 11 at 04-Feb-2022 11:08:08.982 CET
+Begin processing the 130001st record. Run 1, Event 352133, LumiSection 1 on stream 9 at 04-Feb-2022 11:08:09.552 CET
+Begin processing the 140001st record. Run 1, Event 379403, LumiSection 1 on stream 17 at 04-Feb-2022 11:08:10.135 CET
+Begin processing the 150001st record. Run 1, Event 406422, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:10.690 CET
+Begin processing the 160001st record. Run 1, Event 433312, LumiSection 1 on stream 3 at 04-Feb-2022 11:08:11.297 CET
+Begin processing the 170001st record. Run 1, Event 460542, LumiSection 1 on stream 2 at 04-Feb-2022 11:08:11.924 CET
+Begin processing the 180001st record. Run 1, Event 487737, LumiSection 1 on stream 3 at 04-Feb-2022 11:08:12.515 CET
+Begin processing the 190001st record. Run 1, Event 514776, LumiSection 1 on stream 17 at 04-Feb-2022 11:08:13.031 CET
+Begin processing the 200001st record. Run 1, Event 541990, LumiSection 1 on stream 17 at 04-Feb-2022 11:08:13.593 CET
+Begin processing the 210001st record. Run 1, Event 568981, LumiSection 1 on stream 17 at 04-Feb-2022 11:08:14.143 CET
+Begin processing the 220001st record. Run 1, Event 595972, LumiSection 1 on stream 17 at 04-Feb-2022 11:08:14.660 CET
+Begin processing the 230001st record. Run 1, Event 623353, LumiSection 1 on stream 5 at 04-Feb-2022 11:08:15.211 CET
+Begin processing the 240001st record. Run 1, Event 650025, LumiSection 1 on stream 0 at 04-Feb-2022 11:08:15.758 CET
+Begin processing the 250001st record. Run 1, Event 677038, LumiSection 1 on stream 0 at 04-Feb-2022 11:08:16.315 CET
+Begin processing the 260001st record. Run 1, Event 704073, LumiSection 1 on stream 6 at 04-Feb-2022 11:08:16.839 CET
+Begin processing the 270001st record. Run 1, Event 730975, LumiSection 1 on stream 5 at 04-Feb-2022 11:08:17.395 CET
+Begin processing the 280001st record. Run 1, Event 758401, LumiSection 1 on stream 5 at 04-Feb-2022 11:08:17.951 CET
+Begin processing the 290001st record. Run 1, Event 785425, LumiSection 1 on stream 5 at 04-Feb-2022 11:08:18.470 CET
+Begin processing the 300001st record. Run 1, Event 812131, LumiSection 1 on stream 0 at 04-Feb-2022 11:08:19.026 CET
+Begin processing the 310001st record. Run 1, Event 839081, LumiSection 1 on stream 11 at 04-Feb-2022 11:08:19.576 CET
+Begin processing the 320001st record. Run 1, Event 866010, LumiSection 1 on stream 11 at 04-Feb-2022 11:08:20.134 CET
+Begin processing the 330001st record. Run 1, Event 893050, LumiSection 1 on stream 18 at 04-Feb-2022 11:08:20.649 CET
+Begin processing the 340001st record. Run 1, Event 920440, LumiSection 1 on stream 18 at 04-Feb-2022 11:08:21.206 CET
+Begin processing the 350001st record. Run 1, Event 947464, LumiSection 1 on stream 18 at 04-Feb-2022 11:08:21.753 CET
+Begin processing the 360001st record. Run 1, Event 974430, LumiSection 1 on stream 13 at 04-Feb-2022 11:08:22.301 CET
+Begin processing the 370001st record. Run 1, Event 1001828, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:22.819 CET
+Begin processing the 380001st record. Run 1, Event 1028864, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:23.371 CET
+Begin processing the 390001st record. Run 1, Event 1055795, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:23.922 CET
+Begin processing the 400001st record. Run 1, Event 1082749, LumiSection 1 on stream 7 at 04-Feb-2022 11:08:24.440 CET
+Begin processing the 410001st record. Run 1, Event 1109654, LumiSection 1 on stream 1 at 04-Feb-2022 11:08:24.989 CET
+Begin processing the 420001st record. Run 1, Event 1136351, LumiSection 1 on stream 17 at 04-Feb-2022 11:08:25.540 CET
+Begin processing the 430001st record. Run 1, Event 1163696, LumiSection 1 on stream 17 at 04-Feb-2022 11:08:26.093 CET
+Begin processing the 440001st record. Run 1, Event 1190587, LumiSection 1 on stream 17 at 04-Feb-2022 11:08:26.615 CET
+Begin processing the 450001st record. Run 1, Event 1217686, LumiSection 1 on stream 14 at 04-Feb-2022 11:08:27.176 CET
+Begin processing the 460001st record. Run 1, Event 1244830, LumiSection 1 on stream 14 at 04-Feb-2022 11:08:27.731 CET
+Begin processing the 470001st record. Run 1, Event 1271490, LumiSection 1 on stream 14 at 04-Feb-2022 11:08:28.244 CET
+Begin processing the 480001st record. Run 1, Event 1298573, LumiSection 1 on stream 14 at 04-Feb-2022 11:08:28.795 CET
+Begin processing the 490001st record. Run 1, Event 1325721, LumiSection 1 on stream 14 at 04-Feb-2022 11:08:29.344 CET
+Begin processing the 500001st record. Run 1, Event 1353084, LumiSection 1 on stream 14 at 04-Feb-2022 11:08:29.899 CET
+Begin processing the 510001st record. Run 1, Event 1380291, LumiSection 1 on stream 10 at 04-Feb-2022 11:08:30.417 CET
+Begin processing the 520001st record. Run 1, Event 1407266, LumiSection 1 on stream 5 at 04-Feb-2022 11:08:30.978 CET
+Begin processing the 530001st record. Run 1, Event 1434237, LumiSection 1 on stream 9 at 04-Feb-2022 11:08:31.526 CET
+Begin processing the 540001st record. Run 1, Event 1461324, LumiSection 1 on stream 5 at 04-Feb-2022 11:08:32.082 CET
+Begin processing the 550001st record. Run 1, Event 1488222, LumiSection 1 on stream 8 at 04-Feb-2022 11:08:32.595 CET
+Begin processing the 560001st record. Run 1, Event 1515686, LumiSection 1 on stream 8 at 04-Feb-2022 11:08:33.147 CET
+Begin processing the 570001st record. Run 1, Event 1542975, LumiSection 1 on stream 8 at 04-Feb-2022 11:08:33.702 CET
+Begin processing the 580001st record. Run 1, Event 1570048, LumiSection 1 on stream 9 at 04-Feb-2022 11:08:34.221 CET
+Begin processing the 590001st record. Run 1, Event 1597274, LumiSection 1 on stream 5 at 04-Feb-2022 11:08:34.772 CET
+Begin processing the 600001st record. Run 1, Event 1624486, LumiSection 1 on stream 0 at 04-Feb-2022 11:08:35.323 CET
+Begin processing the 610001st record. Run 1, Event 1651293, LumiSection 1 on stream 0 at 04-Feb-2022 11:08:35.877 CET
+Begin processing the 620001st record. Run 1, Event 1678501, LumiSection 1 on stream 0 at 04-Feb-2022 11:08:36.396 CET
+Begin processing the 630001st record. Run 1, Event 1705803, LumiSection 1 on stream 0 at 04-Feb-2022 11:08:36.946 CET
+Begin processing the 640001st record. Run 1, Event 1732884, LumiSection 1 on stream 0 at 04-Feb-2022 11:08:37.509 CET
+Begin processing the 650001st record. Run 1, Event 1759684, LumiSection 1 on stream 5 at 04-Feb-2022 11:08:38.020 CET
+Begin processing the 660001st record. Run 1, Event 1786628, LumiSection 1 on stream 6 at 04-Feb-2022 11:08:38.566 CET
+Begin processing the 670001st record. Run 1, Event 1813536, LumiSection 1 on stream 6 at 04-Feb-2022 11:08:39.114 CET
+Begin processing the 680001st record. Run 1, Event 1840426, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:39.667 CET
+Begin processing the 690001st record. Run 1, Event 1867824, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:40.187 CET
+Begin processing the 700001st record. Run 1, Event 1894942, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:40.738 CET
+Begin processing the 710001st record. Run 1, Event 1922062, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:41.290 CET
+Begin processing the 720001st record. Run 1, Event 1949061, LumiSection 1 on stream 17 at 04-Feb-2022 11:08:41.842 CET
+Begin processing the 730001st record. Run 1, Event 1975891, LumiSection 1 on stream 3 at 04-Feb-2022 11:08:42.361 CET
+Begin processing the 740001st record. Run 1, Event 2002785, LumiSection 1 on stream 15 at 04-Feb-2022 11:08:42.911 CET
+Begin processing the 750001st record. Run 1, Event 2029806, LumiSection 1 on stream 3 at 04-Feb-2022 11:08:43.469 CET
+Begin processing the 760001st record. Run 1, Event 2057014, LumiSection 1 on stream 3 at 04-Feb-2022 11:08:43.988 CET
+Begin processing the 770001st record. Run 1, Event 2084280, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:44.542 CET
+Begin processing the 780001st record. Run 1, Event 2111155, LumiSection 1 on stream 16 at 04-Feb-2022 11:08:45.096 CET
+Begin processing the 790001st record. Run 1, Event 2138460, LumiSection 1 on stream 10 at 04-Feb-2022 11:08:45.640 CET
+Begin processing the 800001st record. Run 1, Event 2165323, LumiSection 1 on stream 10 at 04-Feb-2022 11:08:46.154 CET
+Begin processing the 810001st record. Run 1, Event 2192231, LumiSection 1 on stream 14 at 04-Feb-2022 11:08:46.696 CET
+Begin processing the 820001st record. Run 1, Event 2219327, LumiSection 1 on stream 14 at 04-Feb-2022 11:08:47.246 CET
+Begin processing the 830001st record. Run 1, Event 2246566, LumiSection 1 on stream 14 at 04-Feb-2022 11:08:47.764 CET
+Begin processing the 840001st record. Run 1, Event 2273779, LumiSection 1 on stream 10 at 04-Feb-2022 11:08:48.316 CET
+Begin processing the 850001st record. Run 1, Event 2300396, LumiSection 1 on stream 10 at 04-Feb-2022 11:08:48.871 CET
+Begin processing the 860001st record. Run 1, Event 2327613, LumiSection 1 on stream 11 at 04-Feb-2022 11:08:49.420 CET
+Begin processing the 870001st record. Run 1, Event 2354985, LumiSection 1 on stream 14 at 04-Feb-2022 11:08:49.934 CET
+Begin processing the 880001st record. Run 1, Event 2381959, LumiSection 1 on stream 6 at 04-Feb-2022 11:08:50.488 CET
+Begin processing the 890001st record. Run 1, Event 2409293, LumiSection 1 on stream 10 at 04-Feb-2022 11:08:51.032 CET
+Begin processing the 900001st record. Run 1, Event 2436306, LumiSection 1 on stream 10 at 04-Feb-2022 11:08:51.592 CET
+Begin processing the 910001st record. Run 1, Event 2463607, LumiSection 1 on stream 10 at 04-Feb-2022 11:08:52.111 CET
+Begin processing the 920001st record. Run 1, Event 2490884, LumiSection 1 on stream 13 at 04-Feb-2022 11:08:52.661 CET
+Begin processing the 930001st record. Run 1, Event 2517703, LumiSection 1 on stream 13 at 04-Feb-2022 11:08:53.210 CET
+Begin processing the 940001st record. Run 1, Event 2544717, LumiSection 1 on stream 10 at 04-Feb-2022 11:08:53.724 CET
+Begin processing the 950001st record. Run 1, Event 2571935, LumiSection 1 on stream 4 at 04-Feb-2022 11:08:54.278 CET
+Begin processing the 960001st record. Run 1, Event 2598819, LumiSection 1 on stream 4 at 04-Feb-2022 11:08:54.832 CET
+Begin processing the 970001st record. Run 1, Event 2625769, LumiSection 1 on stream 1 at 04-Feb-2022 11:08:55.385 CET
+Begin processing the 980001st record. Run 1, Event 2652681, LumiSection 1 on stream 1 at 04-Feb-2022 11:08:55.905 CET
+Begin processing the 990001st record. Run 1, Event 2679477, LumiSection 1 on stream 1 at 04-Feb-2022 11:08:56.450 CET
+%MSG-w StatisticsSenderService:  PostGlobalEndRun 04-Feb-2022 11:08:56 CET  PostGlobalEndRun
+fully closed: file:../../../gemsw/EventFilter/test/output_edm_track20.root
+
+%MSG
+04-Feb-2022 11:08:56 CET  Closed file file:../../../gemsw/EventFilter/test/output_edm_track20.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 StatisticsSenderServ -w PostGlobalEndRun                       1        1
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 StatisticsSenderService PostGlobalEndRun                  
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+System                  3                   3
+
+dropped waiting message count 0
+
+----------------------------------------
+|* BARI001     X       Y    view
+ Theta -2 mrad   Sigma x = 182.694 y = 192.069
+ Theta -1.8 mrad   Sigma x = 180.243 y = 189.345
+ Theta -1.6 mrad   Sigma x = 177.86 y = 186.68
+ Theta -1.4 mrad   Sigma x = 175.545 y = 184.082
+ Theta -1.2 mrad   Sigma x = 173.306 y = 181.553
+ Theta -1 mrad   Sigma x = 171.146 y = 179.092
+ Theta -0.8 mrad   Sigma x = 169.066 y = 176.711
+ Theta -0.6 mrad   Sigma x = 167.071 y = 174.409
+ Theta -0.4 mrad   Sigma x = 165.176 y = 172.189
+ Theta -0.2 mrad   Sigma x = 163.375 y = 170.049
+ Theta -9.49949e-08 mrad   Sigma x = 161.66 y = 167.999
+ Theta 0.2 mrad   Sigma x = 160.052 y = 166.038
+ Theta 0.4 mrad   Sigma x = 158.538 y = 164.18
+ Theta 0.6 mrad   Sigma x = 157.118 y = 162.418
+ Theta 0.8 mrad   Sigma x = 155.804 y = 160.757
+ Theta 1 mrad   Sigma x = 154.6 y = 159.201
+ Theta 1.2 mrad   Sigma x = 153.507 y = 157.749
+ Theta 1.4 mrad   Sigma x = 152.528 y = 156.414
+ Theta 1.6 mrad   Sigma x = 151.665 y = 155.183
+ Theta 1.8 mrad   Sigma x = 150.923 y = 154.071
+ Theta 2 mrad   Sigma x = 150.288 y = 153.081
+|* BARI002     X       Y    view
+ Theta -2 mrad   Sigma x = 84.3154 y = 83.5409
+ Theta -1.8 mrad   Sigma x = 83.8296 y = 83.4548
+ Theta -1.6 mrad   Sigma x = 83.5698 y = 83.5993
+ Theta -1.4 mrad   Sigma x = 83.5205 y = 83.9851
+ Theta -1.2 mrad   Sigma x = 83.7179 y = 84.6031
+ Theta -1 mrad   Sigma x = 84.1364 y = 85.4425
+ Theta -0.8 mrad   Sigma x = 84.7729 y = 86.5083
+ Theta -0.6 mrad   Sigma x = 85.634 y = 87.7978
+ Theta -0.4 mrad   Sigma x = 86.7131 y = 89.2734
+ Theta -0.2 mrad   Sigma x = 87.9909 y = 90.9481
+ Theta -9.49949e-08 mrad   Sigma x = 89.4644 y = 92.8059
+ Theta 0.2 mrad   Sigma x = 91.1295 y = 94.8358
+ Theta 0.4 mrad   Sigma x = 92.9651 y = 97.0271
+ Theta 0.6 mrad   Sigma x = 94.9668 y = 99.3642
+ Theta 0.8 mrad   Sigma x = 97.1137 y = 101.847
+ Theta 1 mrad   Sigma x = 99.4217 y = 104.455
+ Theta 1.2 mrad   Sigma x = 101.86 y = 107.188
+ Theta 1.4 mrad   Sigma x = 104.421 y = 110.029
+ Theta 1.6 mrad   Sigma x = 107.103 y = 112.978
+ Theta 1.8 mrad   Sigma x = 109.898 y = 116.023
+ Theta 2 mrad   Sigma x = 112.789 y = 119.155
+|* BARI003     X       Y    view
+ Theta -2 mrad   Sigma x = 94.3141 y = 99.8091
+ Theta -1.8 mrad   Sigma x = 92.2515 y = 97.484
+ Theta -1.6 mrad   Sigma x = 90.3609 y = 95.3093
+ Theta -1.4 mrad   Sigma x = 88.6533 y = 93.3064
+ Theta -1.2 mrad   Sigma x = 87.1395 y = 91.47
+ Theta -1 mrad   Sigma x = 85.8355 y = 89.8382
+ Theta -0.8 mrad   Sigma x = 84.7334 y = 88.3996
+ Theta -0.6 mrad   Sigma x = 83.8588 y = 87.1698
+ Theta -0.4 mrad   Sigma x = 83.2132 y = 86.1516
+ Theta -0.2 mrad   Sigma x = 82.8018 y = 85.3762
+ Theta -9.49949e-08 mrad   Sigma x = 82.634 y = 84.8382
+ Theta 0.2 mrad   Sigma x = 82.6874 y = 84.513
+ Theta 0.4 mrad   Sigma x = 82.9915 y = 84.4381
+ Theta 0.6 mrad   Sigma x = 83.5315 y = 84.5852
+ Theta 0.8 mrad   Sigma x = 84.2972 y = 84.9644
+ Theta 1 mrad   Sigma x = 85.2824 y = 85.596
+ Theta 1.2 mrad   Sigma x = 86.4968 y = 86.463
+ Theta 1.4 mrad   Sigma x = 87.9309 y = 87.5299
+ Theta 1.6 mrad   Sigma x = 89.5576 y = 88.829
+ Theta 1.8 mrad   Sigma x = 91.3666 y = 90.3279
+ Theta 2 mrad   Sigma x = 93.3474 y = 92.0279
+|* BARI004     X       Y    view
+ Theta -2 mrad   Sigma x = 156.464 y = 157.153
+ Theta -1.8 mrad   Sigma x = 154.206 y = 154.975
+ Theta -1.6 mrad   Sigma x = 152.05 y = 152.897
+ Theta -1.4 mrad   Sigma x = 150.001 y = 150.931
+ Theta -1.2 mrad   Sigma x = 148.064 y = 149.083
+ Theta -1 mrad   Sigma x = 146.243 y = 147.346
+ Theta -0.8 mrad   Sigma x = 144.534 y = 145.734
+ Theta -0.6 mrad   Sigma x = 142.955 y = 144.234
+ Theta -0.4 mrad   Sigma x = 141.5 y = 142.874
+ Theta -0.2 mrad   Sigma x = 140.159 y = 141.645
+ Theta -9.49949e-08 mrad   Sigma x = 138.96 y = 140.543
+ Theta 0.2 mrad   Sigma x = 137.914 y = 139.595
+ Theta 0.4 mrad   Sigma x = 137.006 y = 138.789
+ Theta 0.6 mrad   Sigma x = 136.25 y = 138.134
+ Theta 0.8 mrad   Sigma x = 135.627 y = 137.617
+ Theta 1 mrad   Sigma x = 135.168 y = 137.256
+ Theta 1.2 mrad   Sigma x = 134.841 y = 137.03
+ Theta 1.4 mrad   Sigma x = 134.669 y = 136.968
+ Theta 1.6 mrad   Sigma x = 134.65 y = 137.057
+ Theta 1.8 mrad   Sigma x = 134.787 y = 137.294
+ Theta 2 mrad   Sigma x = 135.072 y = 137.677
+68 y = 137.256

@@ -1,0 +1,74 @@
+%MSG-i ThreadStreamSetup:  (NoModuleName) 01-Feb-2022 09:58:05 CET pre-events
+setting # threads 10
+setting # streams 10
+%MSG
+01-Feb-2022 09:58:17 CET  Initiating request to open file file:../../../gemsw/EventFilter/test/output_edm_track11.root
+01-Feb-2022 09:58:18 CET  Successfully opened file file:../../../gemsw/EventFilter/test/output_edm_track11.root
+Begin processing the 1st record. Run 1, Event 5, LumiSection 1 on stream 8 at 01-Feb-2022 09:58:47.411 CET
+Begin processing the 10001st record. Run 1, Event 27175, LumiSection 1 on stream 7 at 01-Feb-2022 09:58:48.008 CET
+Begin processing the 20001st record. Run 1, Event 54322, LumiSection 1 on stream 9 at 01-Feb-2022 09:58:48.573 CET
+Begin processing the 30001st record. Run 1, Event 81364, LumiSection 1 on stream 9 at 01-Feb-2022 09:58:49.124 CET
+Begin processing the 40001st record. Run 1, Event 108682, LumiSection 1 on stream 1 at 01-Feb-2022 09:58:49.656 CET
+Begin processing the 50001st record. Run 1, Event 135919, LumiSection 1 on stream 1 at 01-Feb-2022 09:58:50.206 CET
+Begin processing the 60001st record. Run 1, Event 163156, LumiSection 1 on stream 7 at 01-Feb-2022 09:58:50.750 CET
+Begin processing the 70001st record. Run 1, Event 190158, LumiSection 1 on stream 3 at 01-Feb-2022 09:58:51.281 CET
+Begin processing the 80001st record. Run 1, Event 217136, LumiSection 1 on stream 7 at 01-Feb-2022 09:58:51.845 CET
+Begin processing the 90001st record. Run 1, Event 244076, LumiSection 1 on stream 3 at 01-Feb-2022 09:58:52.409 CET
+Begin processing the 100001st record. Run 1, Event 271042, LumiSection 1 on stream 8 at 01-Feb-2022 09:58:52.970 CET
+Begin processing the 110001st record. Run 1, Event 298078, LumiSection 1 on stream 2 at 01-Feb-2022 09:58:53.506 CET
+Begin processing the 120001st record. Run 1, Event 325137, LumiSection 1 on stream 1 at 01-Feb-2022 09:58:54.065 CET
+Begin processing the 130001st record. Run 1, Event 352136, LumiSection 1 on stream 2 at 01-Feb-2022 09:58:54.646 CET
+Begin processing the 140001st record. Run 1, Event 379403, LumiSection 1 on stream 5 at 01-Feb-2022 09:58:55.166 CET
+Begin processing the 150001st record. Run 1, Event 406429, LumiSection 1 on stream 5 at 01-Feb-2022 09:58:55.712 CET
+Begin processing the 160001st record. Run 1, Event 433308, LumiSection 1 on stream 5 at 01-Feb-2022 09:58:56.274 CET
+Begin processing the 170001st record. Run 1, Event 460534, LumiSection 1 on stream 4 at 01-Feb-2022 09:58:56.841 CET
+Begin processing the 180001st record. Run 1, Event 487737, LumiSection 1 on stream 1 at 01-Feb-2022 09:58:57.358 CET
+Begin processing the 190001st record. Run 1, Event 514790, LumiSection 1 on stream 1 at 01-Feb-2022 09:58:57.926 CET
+Begin processing the 200001st record. Run 1, Event 541999, LumiSection 1 on stream 1 at 01-Feb-2022 09:58:58.480 CET
+Begin processing the 210001st record. Run 1, Event 568979, LumiSection 1 on stream 9 at 01-Feb-2022 09:58:58.999 CET
+Begin processing the 220001st record. Run 1, Event 595972, LumiSection 1 on stream 1 at 01-Feb-2022 09:58:59.555 CET
+Begin processing the 230001st record. Run 1, Event 623353, LumiSection 1 on stream 3 at 01-Feb-2022 09:59:00.102 CET
+Begin processing the 240001st record. Run 1, Event 650025, LumiSection 1 on stream 4 at 01-Feb-2022 09:59:00.635 CET
+Begin processing the 250001st record. Run 1, Event 677038, LumiSection 1 on stream 9 at 01-Feb-2022 09:59:01.204 CET
+Begin processing the 260001st record. Run 1, Event 704055, LumiSection 1 on stream 9 at 01-Feb-2022 09:59:01.769 CET
+Begin processing the 270001st record. Run 1, Event 730979, LumiSection 1 on stream 1 at 01-Feb-2022 09:59:02.319 CET
+Begin processing the 280001st record. Run 1, Event 758399, LumiSection 1 on stream 9 at 01-Feb-2022 09:59:02.841 CET
+Begin processing the 290001st record. Run 1, Event 785406, LumiSection 1 on stream 1 at 01-Feb-2022 09:59:03.403 CET
+Begin processing the 300001st record. Run 1, Event 812134, LumiSection 1 on stream 1 at 01-Feb-2022 09:59:03.962 CET
+Begin processing the 310001st record. Run 1, Event 839074, LumiSection 1 on stream 6 at 01-Feb-2022 09:59:04.488 CET
+Begin processing the 320001st record. Run 1, Event 866016, LumiSection 1 on stream 3 at 01-Feb-2022 09:59:05.037 CET
+Begin processing the 330001st record. Run 1, Event 893050, LumiSection 1 on stream 4 at 01-Feb-2022 09:59:05.601 CET
+Begin processing the 340001st record. Run 1, Event 920436, LumiSection 1 on stream 6 at 01-Feb-2022 09:59:06.147 CET
+Begin processing the 350001st record. Run 1, Event 947462, LumiSection 1 on stream 6 at 01-Feb-2022 09:59:06.682 CET
+Begin processing the 360001st record. Run 1, Event 974430, LumiSection 1 on stream 3 at 01-Feb-2022 09:59:07.229 CET
+Begin processing the 370001st record. Run 1, Event 1001828, LumiSection 1 on stream 4 at 01-Feb-2022 09:59:07.779 CET
+Begin processing the 380001st record. Run 1, Event 1028864, LumiSection 1 on stream 5 at 01-Feb-2022 09:59:08.304 CET
+Begin processing the 390001st record. Run 1, Event 1055799, LumiSection 1 on stream 4 at 01-Feb-2022 09:59:08.862 CET
+%MSG-w StatisticsSenderService:  PostGlobalEndRun 01-Feb-2022 09:59:09 CET  PostGlobalEndRun
+fully closed: file:../../../gemsw/EventFilter/test/output_edm_track11.root
+
+%MSG
+01-Feb-2022 09:59:09 CET  Closed file file:../../../gemsw/EventFilter/test/output_edm_track11.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 StatisticsSenderServ -w PostGlobalEndRun                       1        1
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 StatisticsSenderService PostGlobalEndRun                  
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+System                  3                   3
+
+dropped waiting message count 0
