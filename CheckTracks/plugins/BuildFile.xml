@@ -1,0 +1,16 @@
+<use name="DataFormats/TrackReco"/>
+<use name="FWCore/Framework"/>
+<use name="FWCore/ParameterSet"/>
+<use name="FWCore/PluginManager"/>
+<use name="PhysicsTools/UtilAlgos"/>
+<use name="TrackingTools/TrajectoryState"/>
+<use name="RecoMuon/TransientTrackingRecHit"/>
+<use name="RecoMuon/TrackingTools"/>
+<use name="DataFormats/GEMRecHit"/>
+<use name="DataFormats/TrajectorySeed"/>
+<use name="Geometry/Records"/>
+<use name="Geometry/GEMGeometry"/>
+<use name="TrackingTools/GeomPropagators"/>
+<use name="gemsw/RecoMuon"/>
+<use name="CLHEP"/>
+<flags EDM_PLUGIN="1"/>

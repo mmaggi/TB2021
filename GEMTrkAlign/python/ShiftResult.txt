@@ -1,0 +1,62 @@
+First iteration  x          y
+     Bari002  0.06042 cm -0.05481 cm   
+     Bari003 -0.05155 cm -0.07845 cm      
+     Bari004  0.03114 cm  0.19850 cm
+
+shift 2 -0.06042  0.0
+      3  0.0      0.0
+      4 -0.04765  0.19850
+Second iteration  x          y
+     Bari002  0.00199 cm -0.04548 cm   
+     Bari003 -0.00107 cm  0.02546 cm      
+     Bari004  0.0     cm  0.0     cm
+
+shift 2 -0.06241 -0.04548
+      3  0.0      0.0
+      4 -0.04765  0.19850
+Third  iteration  x          y
+     Bari002  0.0     cm -0.0     cm   
+     Bari003 -0.00021 cm  0.02546 cm      
+     Bari004  0.0     cm  0.01889 cm
+
+shift 2 -0.06241 -0.04548
+      3  0.00021  0.02546
+      4 -0.04765  0.19850
+4Th    iteration  x          y
+     Bari002 -0.00011 cm  0.01079 cm   
+     Bari003  0.0     cm -0.01950 cm      
+     Bari004  0.00027 cm  0.02122 cm
+
+shift 2 -0.06241 -0.04548
+      3  0.00021  0.02546
+      4 -0.04792  0.21972
+5Th    iteration  x          y
+     Bari002  0.0     cm  0.01193 cm   
+     Bari003  0.00015 cm -0.00838 cm      
+     Bari004  0.0     cm  0.0     cm
+    
+shift 2 -0.06241 -0.03355
+      3  0.00006  0.02546
+      4 -0.04792  0.21972
+6Th    iteration  x          y
+     Bari002  0.0     cm  0.0     cm   
+     Bari003  0.0     cm -0.00325 cm      
+     Bari004  0.00021 cm  0.00350 cm    
+
+shift 2 -0.06241 -0.03355
+      3  0.00006  0.02546
+      4 -0.04813  0.22322
+7Th    iteration  x          y
+     Bari002  0.0     cm  0.0     cm   
+     Bari003  0.0     cm -0.00330 cm      
+     Bari004  0.00020 cm  0.00350 cm
+
+shift 2 -0.06241 -0.03355
+      3  0.00006  0.02546
+      4 -0.04833  0.22672
+8Th    iteration  x          y
+     Bari001  0.00018 cm -0.00226 cm
+     Bari002  0.0     cm  0.00027 cm
+     Bari003  0.0     cm -0.00330 cm
+     Bari004  0.00020 cm  0.00350 cm
+

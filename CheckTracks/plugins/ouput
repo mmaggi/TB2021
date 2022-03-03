@@ -1,0 +1,21 @@
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Creating project symlinks
+>> Entering Package TB2021/CheckTracks
+>> Entering Package gemsw/RecoMuon
+>> Compiling edm plugin /run/media/userSRS/First/MARCELLO/TB/YTRALI/CMSSW_12_2_0_pre1/src/TB2021/CheckTracks/plugins/CheckTracks.cc
+>> Building  edm plugin tmp/slc7_amd64_gcc900/src/TB2021/CheckTracks/plugins/TB2021CheckTracksAuto/libTB2021CheckTracksAuto.so
+Leaving library rule at src/TB2021/CheckTracks/plugins
+@@@@ Running edmWriteConfigs for TB2021CheckTracksAuto
+--- Registered EDM Plugin: TB2021CheckTracksAuto
+gmake[1]: Entering directory '/run/media/userSRS/First/MARCELLO/TB/YTRALI/CMSSW_12_2_0_pre1'
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+@@@@ Refreshing Plugins:edmPluginRefresh
+>> Creating project symlinks
+>> Done python_symlink
+>> Compiling python3 modules python
+>> Done generating edm plugin poisoned information
+>> All python modules compiled
+>> Plugins of all types refreshed.
+gmake[1]: Leaving directory '/run/media/userSRS/First/MARCELLO/TB/YTRALI/CMSSW_12_2_0_pre1'

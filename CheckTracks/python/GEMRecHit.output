@@ -1,0 +1,130 @@
++++ Event Number 3
+Tracker chamber BARI001
+ X view: ClusterSize 3 Local position  (0.16252,0,0)  global  (0.16252,10.1587,0) 
+ Y view: ClusterSize 3 Local position  (3.51293,0,0)  global  (2.15105e-16,10.2587,-3.51293) 
+Tracker chamber BARI002
+ X view: ClusterSize 3 Local position  (-0.0625077,0,0)  global  (-0.0625077,80.2588,0) 
+ Y view: ClusterSize 3 Local position  (3.06288,0,0)  global  (1.87547e-16,80.3587,-3.06288) 
+Tracker chamber BARI003
+ X view: ClusterSize 2 Local position  (-0.400049,0,0)  global  (-0.400049,150.159,0) 
+ Y view: ClusterSize 2 Local position  (2.67533,0,0)  global  (1.63817e-16,150.259,-2.67533) 
+Tracker chamber BARI004
+ X view: ClusterSize 3 Local position  (-0.637579,0,0)  global  (-0.637579,220.259,0) 
+ Y view: ClusterSize 3 Local position  (2.4378,0,0)  global  (1.49272e-16,220.359,-2.4378) 
++++ Event Number 2
+Tracker chamber BARI001
+ X view: ClusterSize 3 Local position  (-1.23765,0,0)  global  (-1.23765,10.1587,0) 
+ Y view: ClusterSize 3 Local position  (0.0125016,0,0)  global  (7.65505e-19,10.2587,-0.0125016) 
+Tracker chamber BARI002
+ X view: ClusterSize 5 Local position  (-1.33767,0,0)  global  (-1.33767,80.2588,0) 
+ Y view: ClusterSize 5 Local position  (-0.512563,0,0)  global  (-3.13854e-17,80.3587,0.512563) 
+Tracker chamber BARI003
+ X view: ClusterSize 4 Local position  (-1.57519,0,0)  global  (-1.57519,150.159,0) 
+ Y view: ClusterSize 4 Local position  (-0.950117,0,0)  global  (-5.81779e-17,150.259,0.950117) 
+Tracker chamber BARI004
+ X view: ClusterSize 4 Local position  (-1.70021,0,0)  global  (-1.70021,220.259,0) 
+ Y view: ClusterSize 5 Local position  (-1.23765,0,0)  global  (-7.57844e-17,220.359,1.23765) 
++++ Event Number 7
+Tracker chamber BARI001
+ X view: ClusterSize 5 Local position  (-1.93774,0,0)  global  (-1.93774,10.1587,0) 
+ Y view: ClusterSize 5 Local position  (-0.662582,0,0)  global  (-4.05714e-17,10.2587,0.662582) 
+Tracker chamber BARI002
+ X view: ClusterSize 3 Local position  (-2.11276,0,0)  global  (-2.11276,80.2588,0) 
+ Y view: ClusterSize 3 Local position  (-1.26266,0,0)  global  (-7.73154e-17,80.3587,1.26266) 
+Tracker chamber BARI003
+ X view: ClusterSize 4 Local position  (-2.4253,0,0)  global  (-2.4253,150.159,0) 
+ Y view: ClusterSize 4 Local position  (-1.72521,0,0)  global  (-1.05639e-16,150.259,1.72521) 
+Tracker chamber BARI004
+ X view: ClusterSize 4 Local position  (-2.62532,0,0)  global  (-2.62532,220.259,0) 
+ Y view: ClusterSize 3 Local position  (-2.06275,0,0)  global  (-1.26307e-16,220.359,2.06275) 
++++ Event Number 10
+Tracker chamber BARI001
+ X view: ClusterSize 2 Local position  (2.77534,0,0)  global  (2.77534,10.1587,0) 
+ Y view: ClusterSize 2 Local position  (-1.25015,0,0)  global  (-7.65499e-17,10.2587,1.25015) 
+Tracker chamber BARI002
+ X view: ClusterSize 5 Local position  (2.68783,0,0)  global  (2.68783,80.2588,0) 
+ Y view: ClusterSize 5 Local position  (-1.78772,0,0)  global  (-1.09466e-16,80.3587,1.78772) 
+Tracker chamber BARI003
+ X view: ClusterSize 3 Local position  (2.48781,0,0)  global  (2.48781,150.159,0) 
+ Y view: ClusterSize 3 Local position  (-2.26278,0,0)  global  (-1.38555e-16,150.259,2.26278) 
+Tracker chamber BARI004
+ X view: ClusterSize 1 Local position  (2.3878,0,0)  global  (2.3878,220.259,0) 
+ Y view: ClusterSize 1 Local position  (-2.61282,0,0)  global  (-1.59989e-16,220.359,2.61282) 
++++ Event Number 13
+Tracker chamber BARI001
+ X view: ClusterSize 3 Local position  (-2.38779,0,0)  global  (-2.38779,10.1587,0) 
+ Y view: ClusterSize 3 Local position  (-0.962619,0,0)  global  (-5.89434e-17,10.2587,0.962619) 
+Tracker chamber BARI002
+ X view: ClusterSize 3 Local position  (-2.4628,0,0)  global  (-2.4628,80.2588,0) 
+ Y view: ClusterSize 3 Local position  (-1.5877,0,0)  global  (-9.72184e-17,80.3587,1.5877) 
+Tracker chamber BARI003
+ X view: ClusterSize 3 Local position  (-2.66283,0,0)  global  (-2.66283,150.159,0) 
+ Y view: ClusterSize 4 Local position  (-2.10026,0,0)  global  (-1.28604e-16,150.259,2.10026) 
+Tracker chamber BARI004
+ X view: ClusterSize 3 Local position  (-2.76284,0,0)  global  (-2.76284,220.259,0) 
+ Y view: ClusterSize 3 Local position  (-2.48781,0,0)  global  (-1.52334e-16,220.359,2.48781) 
++++ Event Number 16
+Tracker chamber BARI001
+ X view: ClusterSize 4 Local position  (2.32529,0,0)  global  (2.32529,10.1587,0) 
+ Y view: ClusterSize 4 Local position  (2.60032,0,0)  global  (1.59224e-16,10.2587,-2.60032) 
+Tracker chamber BARI002
+ X view: ClusterSize 3 Local position  (2.28778,0,0)  global  (2.28778,80.2588,0) 
+ Y view: ClusterSize 3 Local position  (2.03775,0,0)  global  (1.24776e-16,80.3587,-2.03775) 
+Tracker chamber BARI003
+ X view: ClusterSize 2 Local position  (2.12526,0,0)  global  (2.12526,150.159,0) 
+ Y view: ClusterSize 2 Local position  (1.52519,0,0)  global  (9.33909e-17,150.259,-1.52519) 
+Tracker chamber BARI004
+ X view: ClusterSize 4 Local position  (2.07526,0,0)  global  (2.07526,220.259,0) 
+ Y view: ClusterSize 4 Local position  (1.15014,0,0)  global  (7.04259e-17,220.359,-1.15014) 
++++ Event Number 14
+Tracker chamber BARI001
+ X view: ClusterSize 4 Local position  (3.87548,0,0)  global  (3.87548,10.1587,0) 
+ Y view: ClusterSize 5 Local position  (-0.987622,0,0)  global  (-6.04744e-17,10.2587,0.987622) 
+Tracker chamber BARI002
+ X view: ClusterSize 4 Local position  (3.82547,0,0)  global  (3.82547,80.2588,0) 
+ Y view: ClusterSize 5 Local position  (-1.51269,0,0)  global  (-9.26254e-17,80.3587,1.51269) 
+Tracker chamber BARI003
+ X view: ClusterSize 3 Local position  (3.63795,0,0)  global  (3.63795,150.159,0) 
+ Y view: ClusterSize 2 Local position  (-1.95024,0,0)  global  (-1.19418e-16,150.259,1.95024) 
+Tracker chamber BARI004
+ X view: ClusterSize 3 Local position  (3.56294,0,0)  global  (3.56294,220.259,0) 
+ Y view: ClusterSize 3 Local position  (-2.26278,0,0)  global  (-1.38555e-16,220.359,2.26278) 
++++ Event Number 5
+Tracker chamber BARI001
+ X view: ClusterSize 4 Local position  (1.92524,0,0)  global  (1.92524,10.1587,0) 
+ Y view: ClusterSize 4 Local position  (-2.95036,0,0)  global  (-1.80658e-16,10.2587,2.95036) 
+Tracker chamber BARI002
+ X view: ClusterSize 4 Local position  (1.92524,0,0)  global  (1.92524,80.2588,0) 
+ Y view: ClusterSize 4 Local position  (-3.55044,0,0)  global  (-2.17402e-16,80.3587,3.55044) 
+Tracker chamber BARI003
+ X view: ClusterSize 2 Local position  (1.80022,0,0)  global  (1.80022,150.159,0) 
+ Y view: ClusterSize 2 Local position  (-4.0505,0,0)  global  (-2.48022e-16,150.259,4.0505) 
+Tracker chamber BARI004
+ X view: ClusterSize 2 Local position  (1.77522,0,0)  global  (1.77522,220.259,0) 
+ Y view: ClusterSize 1 Local position  (-4.43805,0,0)  global  (-2.71752e-16,220.359,4.43805) 
++++ Event Number 4
+Tracker chamber BARI001
+ X view: ClusterSize 3 Local position  (0.48756,0,0)  global  (0.48756,10.1587,0) 
+ Y view: ClusterSize 3 Local position  (4.21302,0,0)  global  (2.57973e-16,10.2587,-4.21302) 
+Tracker chamber BARI002
+ X view: ClusterSize 4 Local position  (0.375046,0,0)  global  (0.375046,80.2588,0) 
+ Y view: ClusterSize 3 Local position  (3.78797,0,0)  global  (2.31946e-16,80.3587,-3.78797) 
+Tracker chamber BARI003
+ X view: ClusterSize 3 Local position  (0.16252,0,0)  global  (0.16252,150.159,0) 
+ Y view: ClusterSize 3 Local position  (3.46293,0,0)  global  (2.12043e-16,150.259,-3.46293) 
+Tracker chamber BARI004
+ X view: ClusterSize 4 Local position  (0.0500061,0,0)  global  (0.0500061,220.259,0) 
+ Y view: ClusterSize 4 Local position  (3.2504,0,0)  global  (1.9903e-16,220.359,-3.2504) 
++++ Event Number 1
+Tracker chamber BARI001
+ X view: ClusterSize 3 Local position  (-2.36279,0,0)  global  (-2.36279,10.1587,0) 
+ Y view: ClusterSize 3 Local position  (1.06263,0,0)  global  (6.50674e-17,10.2587,-1.06263) 
+Tracker chamber BARI002
+ X view: ClusterSize 4 Local position  (-2.37529,0,0)  global  (-2.37529,80.2588,0) 
+ Y view: ClusterSize 4 Local position  (0.475059,0,0)  global  (2.90889e-17,80.3587,-0.475059) 
+Tracker chamber BARI003
+ X view: ClusterSize 3 Local position  (-2.51281,0,0)  global  (-2.51281,150.159,0) 
+ Y view: ClusterSize 3 Local position  (-0.0375047,0,0)  global  (-2.2965e-18,150.259,0.0375047) 
+Tracker chamber BARI004
+ X view: ClusterSize 4 Local position  (-2.52531,0,0)  global  (-2.52531,220.259,0) 
+ Y view: ClusterSize 3 Local position  (-0.387548,0,0)  global  (-2.37305e-17,220.359,0.387548) 
