@@ -94,10 +94,10 @@ Gem21Perf::~Gem21Perf() {
 void Gem21Perf::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup) {
   using namespace edm;
 
-  for (const auto& track : iEvent.get(tracksToken_)) {
+  //  for (const auto& track : iEvent.get(tracksToken_)) {
     // do something with track parameters, e.g, plot the charge.
     // int charge = track.charge();
-  }
+  //  }
 
 #ifdef THIS_IS_AN_EVENTSETUP_EXAMPLE
   // if the SetupData is always needed
