@@ -31,7 +31,7 @@ cmsRun gemTestBeamStep1.py inputFiles=file:filename maxEvents=Nevts
 
 Step2, global reconstruction using the alignment db and track extrapolations to all tracking chambers (excluding the chamber to extrapolate) and track extrapolation to GE21
 ```bash
-cmsRun gemTestBeamStep1.py inputFiles=file:filename maxEvents=Nevts
+cmsRun gemTestBeamStep2.py inputFiles=file:filename maxEvents=Nevts
 ``` 
 
 the two arguments are mandatory to set: inputFiles requires the file: protocol to to the filename including the entire path.
