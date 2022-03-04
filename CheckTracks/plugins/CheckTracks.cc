@@ -190,7 +190,7 @@ void CheckTracks::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetu
   }
   if(first) first=false;
 
-  unsigned int nGoodCh=0;
+  //  unsigned int nGoodCh=0;
   for (unsigned int i=0;i<4;i++){
   
     GEMRecHitCollection::range rx = gemRecHits->get(xCham[i]->id());
