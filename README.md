@@ -19,3 +19,21 @@ cd TB2021
 scram b -j 10
 ```
 
+Workflows:
+```bash
+cd Workflow/python
+```
+
+Step1, unpacking and local reconstruction
+```bash
+cmsRun gemTestBeamStep1.py inputFiles=file:filename maxEvents=Nevts
+``` 
+
+Step2, global reconstruction using the alignment db and track extrapolations to all tracking chambers (excluding the chamber to extrapolate) and track extrapolation to GE21
+```bash
+cmsRun gemTestBeamStep1.py inputFiles=file:filename maxEvents=Nevts
+``` 
+
+the two arguments are mandatory to set: inputFiles requires the file: protocol to to the filename including the entire path.
+maxEvents requires an integer number representing the number of events to process, -1 in case all events shall be processed.
+
