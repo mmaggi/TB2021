@@ -100,7 +100,7 @@ process.TestBeamTrackAnalyzer = cms.EDAnalyzer("TestBeamTrackAnalyzer",
                                                )
 process.perTrFilter = cms.EDFilter("PerfTrack",
                                    recHitLabel = cms.InputTag("gemRecHits"),
-                                   nHitmin = cms.uint32(4);
+                                   nHitmin = cms.uint32(4)
 )
 #process.perTrPath = cms.Path(process.perTrFilter)
 
