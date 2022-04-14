@@ -94,6 +94,7 @@ private:
   TH1F* h21_yInd_den;
   TH1F* h21_yInd_eff;
   TH1F* h21_yInd_and;
+  TH2F* h21_yInd_and2;
   TH1F* h21_yInd_x1Only;
   TH1F* h21_yInd_x2Only;
   TH1F* h21_yInd_x1Onlyck;
@@ -157,14 +158,15 @@ GEMRot::GEMRot(const edm::ParameterSet& iConfig){
 
   h21_yInd1 = fs->make<TH2F>("GE21yInd1","GE21 y1 Vs induction",500,-3.5,3.5,1000,-6.,-4.5);
   h21_yInd2 = fs->make<TH2F>("GE21yInd2","GE21 y2 Vs induction",500,-3.5,3.5,1000,4.5,6.);
-  h21_yInd = fs->make<TH2F>("GE21yInd","GE21 y Vs induction",500,-3.5,3.5,1000,-2.5,2.5);
-  xoff = -0.7107;
-  offset = 0.2385;
+  h21_yInd = fs->make<TH2F>("GE21yInd","GE21 y Vs induction",23,-5.75,5.75,1000,-2.5,2.5);
+  xoff = -1.80;
+  offset = -0.007;//-0.250801;
   offset14 =  5.395;
   offset15 = -5.395;
   h21_yInd_den    = fs->make<TH1F>("GE21yIndDen","GE21 extrapolated y all tracks",1000,-5.0,5.0);
   h21_yInd_eff    = fs->make<TH1F>("GE21yIndOr" ,"GE21 extrapolated y partition fired 14 or 15",1000,-5.0,5.0);
   h21_yInd_and    = fs->make<TH1F>("GE21yIndAnd","GE21 extrapolated y partition fired 14 and 15",1000,-5.0,5.0);
+  h21_yInd_and2    = fs->make<TH2F>("GE21yIndAnd2","GE21 extrapolated y partition fired 14 and 15",100,8.,22.,200,-1.0,1.0);
   h21_yInd_x1Only = fs->make<TH1F>("GE21yIndx1" ,"GE21 extrapolated y Vs partition fired 14 only",1000,-5.0,5.0);
   h21_yInd_x2Only = fs->make<TH1F>("GE21yIndx2" ,"GE21 extrapolated y Vs partition fired 15 only",1000,-5.0,5.0);
   h21_yInd_x1Onlyck = fs->make<TH1F>("GE21yIndx1ck" ,"GE21 extrapolated y Vs partition fired 14 only",1000,-5.0,5.0);
@@ -178,7 +180,7 @@ GEMRot::GEMRot(const edm::ParameterSet& iConfig){
     h21_res[partition] = fs->make<TH1F>(st21.str().c_str(),ti21.str().c_str(),500,-5.,5.);
     ti21s1<<"x Residuals in strip units for GE21 partition "<<partition;
     st21s1<<"ResGE21pstr"<<partition;
-    h21_res_str[partition] = fs->make<TH1F>(st21s1.str().c_str(),ti21s1.str().c_str(),500,-50.,50.);
+    h21_res_str[partition] = fs->make<TH1F>(st21s1.str().c_str(),ti21s1.str().c_str(),100,-10.,10.);
     ti21s2<<"x Residuals in strip units av pitch for GE21 partition "<<partition;
     st21s2<<"ResGE21pstrap"<<partition;
     h21_res_str_ap[partition] = fs->make<TH1F>(st21s2.str().c_str(),ti21s2.str().c_str(),500,-5.,5.);
@@ -196,11 +198,11 @@ GEMRot::GEMRot(const edm::ParameterSet& iConfig){
     std::string ti212ds2=" Extr Vs "+ti21s2.str();
     std::string st212ds3=st21s3.str()+"VsExtr";
     std::string ti212ds3=" Extr Vs "+ti21s3.str();
-    h21_resVspre[partition] = fs->make<TH2F>(st212d.c_str(),ti212d.c_str(),500,-5.,5.,200,-12.,12.);
-    h21_resVspre_str[partition] = fs->make<TH2F>(st212ds1.c_str(),ti212ds1.c_str(),500,-50.,50.,200,-12.,12.);
-    h21_resVspre_cstr[partition] = fs->make<TH2F>(st212dc1.c_str(),ti212dc1.c_str(),500,-50.,50.,200,-12.,12.);
-    h21_resVspre_str_ap[partition] = fs->make<TH2F>(st212ds2.c_str(),ti212ds2.c_str(),500,-5.,5.,200,-12.,12.);
-    h21_resVspre_str_vp[partition] = fs->make<TH2F>(st212ds3.c_str(),ti212ds3.c_str(),500,-5.,5.,200,-12.,12.);
+    h21_resVspre[partition] = fs->make<TH2F>(st212d.c_str(),ti212d.c_str(),500,-5.,5.,100,-6.,6.);
+    h21_resVspre_str[partition] = fs->make<TH2F>(st212ds1.c_str(),ti212ds1.c_str(),100,-10.,10.,100,-6.,6.);
+    h21_resVspre_cstr[partition] = fs->make<TH2F>(st212dc1.c_str(),ti212dc1.c_str(),100,-10.,10.,100,-6.,6.);
+    h21_resVspre_str_ap[partition] = fs->make<TH2F>(st212ds2.c_str(),ti212ds2.c_str(),500,-5.,5.,100,-6.,6.);
+    h21_resVspre_str_vp[partition] = fs->make<TH2F>(st212ds3.c_str(),ti212ds3.c_str(),500,-5.,5.,100,-6.,6.);
   }
 
   std::vector<std::string> sv;
@@ -365,7 +367,6 @@ void GEMRot::Analyse21(const GEMRecHitCollection& rhs, const GEMRecHitCollection
   LocalPoint lp2(10.,-5.,0.);
   LocalPoint lp3(10.,-10.,0.);
   
-
   float d=0;
   unsigned int nck_ba = exgt.id_size();
   std::map<int, float> yextr;
@@ -377,10 +378,10 @@ void GEMRot::Analyse21(const GEMRecHitCollection& rhs, const GEMRecHitCollection
   std::map<int, float> estrip;
   std::map<int, float> ecstrip;
   std::map<int, float> emstrip;
-  //  std::cout<<" New events # of extrapolaed detectors "<<nck_ba<<std::endl;
+
   for (auto i = exgt.id_begin(); i!=exgt.id_end(); i++){
-    //    std::cout <<" ID "<<*i<<std::endl;
     auto irh = exgt.get(*i);
+
     GEMDetId mid(*i);
     int part = mid.ieta();
     for (auto rh=irh.first;rh!=irh.second;rh++){
@@ -397,18 +398,18 @@ void GEMRot::Analyse21(const GEMRecHitCollection& rhs, const GEMRecHitCollection
   }
   float y = -10000.;
   float x = -10000.;
-  float s = -1.;
-  float sc = -1.;
+  // float s = -1.;
+  // float sc = -1.;
   if ( yextr.find(14) != yextr.end()){
     y = yextr[14]+offset14;
     x = xextr[14];
-    s = estrip[14];
-    sc = ecstrip[14];
+    // s = estrip[14];
+    //  sc = ecstrip[14];
   } else if (yextr.find(15) != yextr.end()){
     y = yextr[15]+offset15;
     x = xextr[15];
-    s = estrip[15];
-    sc = ecstrip[15];
+    //  s = estrip[15];
+    //sc = ecstrip[15];
   } else {
     std::cout <<" Strange no track extrapolated"<<std::endl;
   }
@@ -448,22 +449,27 @@ void GEMRot::Analyse21(const GEMRecHitCollection& rhs, const GEMRecHitCollection
 	  cls = mh->clusterSize();	  
 	  emstrip[part]=mgeom->etaPartition(mid)->strip(mh->localPosition());
 	}
-      }	
+      }
       if (xp !=0) {
 	xmeas[xp]=xn;
 	fstrip[xp]=fs;
 	clsize[xp]=cls;
 	cstrip[xp]=fs+(cls-1.)/2.;
 	h21_res[xp]->Fill(xn-x);
-	h21_res_str[xp]->Fill(emstrip[xp]-s);
-	h21_res_str_ap[xp]->Fill((emstrip[xp]-s)*pitch);
-	h21_res_str_vp[xp]->Fill((emstrip[xp]-s)*lpi);
+	h21_res_str[xp]->Fill(emstrip[xp]-estrip[xp]);
+	h21_res_str_ap[xp]->Fill((emstrip[xp]-estrip[xp])*pitch);
+	h21_res_str_vp[xp]->Fill((emstrip[xp]-estrip[xp])*lpi);
 	h21_rest->Fill(xn-x);
 	h21_resVspre[xp]->Fill(xn-x,y);
-	h21_resVspre_str[xp]->Fill(emstrip[xp]-s,y);
-	h21_resVspre_cstr[xp]->Fill(emstrip[xp]-sc,y);
-	h21_resVspre_str_ap[xp]->Fill((emstrip[xp]-s)*pitch,y);
-	h21_resVspre_str_vp[xp]->Fill((emstrip[xp]-s)*lpi,y);
+	if (y > 0){
+	  std::cout <<" Partion "<<xp<<" Cstrip "<<cstrip[xp]<<" first strip "<<fs<<" Cluster size "<<cls
+		    <<" xextr "<<xextr[xp]<<" y "<<yextr[xp]<<" strip "<<estrip[xp]<<" local pitch "<<lpi
+		    <<" ratio "<<yextr[xp]*lpi<<std::endl;
+	}
+	h21_resVspre_str[xp]->Fill(emstrip[xp]-estrip[xp],y);
+	h21_resVspre_cstr[xp]->Fill(emstrip[xp]-ecstrip[xp],y);
+	h21_resVspre_str_ap[xp]->Fill((emstrip[xp]-estrip[xp])*pitch,y);
+	h21_resVspre_str_vp[xp]->Fill((emstrip[xp]-estrip[xp])*lpi,y);
       }
       //	std::cout <<"-> Reco Position "<<mh->localPosition()<<std::endl;
     }
@@ -501,8 +507,11 @@ void GEMRot::Analyse21(const GEMRecHitCollection& rhs, const GEMRecHitCollection
     std::cout <<"     Eta 14 fstrip="<<std::setw(3)<<fstrip[14]<<" cls="<<std::setw(3)<<clsize[14]<<" central strip="<<cstrip[14]<<" estimate "<<emstrip[14]<<" "<<estrip[14]<<std::endl;
     std::cout <<"     Eta 15 fstrip="<<std::setw(3)<<fstrip[15]<<" cls="<<std::setw(3)<<clsize[15]<<" central strip="<<cstrip[15]<<" estimate "<<emstrip[15]<<" "<<estrip[15]<<std::endl;
     */
-    h21_yInd->Fill(xmeas[14]-xmeas[15],y);
+    h21_yInd->Fill(emstrip[14]-emstrip[15],y);
     h21_yInd_and->Fill(y);
+    if (abs(emstrip[14]-emstrip[15]) <5){
+      h21_yInd_and2->Fill(x,y);
+    }
     h21_yInd_eff->Fill(y);
     h21_yInd1->Fill(xmeas[14]-xmeas[15],yextr[14]);
     h21_yInd2->Fill(xmeas[14]-xmeas[15],yextr[15]);
